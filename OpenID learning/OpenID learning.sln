@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenID learning", "OpenID learning\OpenID learning.csproj", "{F32926AF-D294-4DFA-A031-1EA7DA786CC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenID.API", "OpenID.API\OpenID.API.csproj", "{5883CCEA-7F0D-46AB-B25F-2E54CD9611BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F32926AF-D294-4DFA-A031-1EA7DA786CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32926AF-D294-4DFA-A031-1EA7DA786CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32926AF-D294-4DFA-A031-1EA7DA786CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32926AF-D294-4DFA-A031-1EA7DA786CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5883CCEA-7F0D-46AB-B25F-2E54CD9611BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5883CCEA-7F0D-46AB-B25F-2E54CD9611BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5883CCEA-7F0D-46AB-B25F-2E54CD9611BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5883CCEA-7F0D-46AB-B25F-2E54CD9611BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3A67669-A7AB-483F-8852-84D86EB128B2}
+	EndGlobalSection
+EndGlobal
