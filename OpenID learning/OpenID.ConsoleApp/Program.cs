@@ -14,7 +14,7 @@ namespace OpenID.ConsoleApp
 
         private static async Task MainAsync()
         {
-            var disco = await DiscoveryClient.GetAsync("http://localhost:5000");
+            var disco = await DiscoveryClient.GetAsync("https://localhost:5000");
             if (disco.IsError)
             {
                 Console.WriteLine(disco.Error);

@@ -29,7 +29,7 @@ namespace OpenID.API
             services.AddAuthentication("Bearer")
                 .AddIdentityServerAuthentication(options =>
                 {
-                    options.Authority = "http://localhost:5000";
+                    options.Authority = "https://localhost:5000";
                     options.RequireHttpsMetadata = false;
                     options.ApiName = "OpenIDApi";
                 });
