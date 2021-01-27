@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenID learning", "OpenID learning\OpenID learning.csproj", "{F32926AF-D294-4DFA-A031-1EA7DA786CC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenID.API", "OpenID.API\OpenID.API.csproj", "{5883CCEA-7F0D-46AB-B25F-2E54CD9611BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenID.API", "OpenID.API\OpenID.API.csproj", "{5883CCEA-7F0D-46AB-B25F-2E54CD9611BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenID.IdentitySvr", "OpenID.IdentitySvr\OpenID.IdentitySvr.csproj", "{1330FC2E-54D1-4C91-A8E4-80C1AD70B05B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenID.ConsoleApp", "OpenID.ConsoleApp\OpenID.ConsoleApp.csproj", "{B04D30FD-E5F8-46BF-BFEA-66D79E65D9E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenID.MVCClient", "OpenID.MVCClient\OpenID.MVCClient.csproj", "{C75308DA-EF8F-4C88-A099-63A6C1409B4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{5883CCEA-7F0D-46AB-B25F-2E54CD9611BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5883CCEA-7F0D-46AB-B25F-2E54CD9611BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5883CCEA-7F0D-46AB-B25F-2E54CD9611BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1330FC2E-54D1-4C91-A8E4-80C1AD70B05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1330FC2E-54D1-4C91-A8E4-80C1AD70B05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1330FC2E-54D1-4C91-A8E4-80C1AD70B05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1330FC2E-54D1-4C91-A8E4-80C1AD70B05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04D30FD-E5F8-46BF-BFEA-66D79E65D9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04D30FD-E5F8-46BF-BFEA-66D79E65D9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04D30FD-E5F8-46BF-BFEA-66D79E65D9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04D30FD-E5F8-46BF-BFEA-66D79E65D9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75308DA-EF8F-4C88-A099-63A6C1409B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75308DA-EF8F-4C88-A099-63A6C1409B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75308DA-EF8F-4C88-A099-63A6C1409B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75308DA-EF8F-4C88-A099-63A6C1409B4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
