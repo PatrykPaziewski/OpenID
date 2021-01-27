@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace OpenID.MVCClient
 {
@@ -18,6 +19,8 @@ namespace OpenID.MVCClient
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
+
             services.AddControllersWithViews();
             services.AddAuthentication(options =>
             {
